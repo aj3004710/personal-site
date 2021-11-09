@@ -19,8 +19,9 @@
                 <a href="#" id="name">AJ Hunter</a>
             </div>
             <div class="nav_links">
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Sign In</a></li>
+                <li><a href="https://app.acuityscheduling.com/schedule.php?owner=22019419">Free Consultation</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Me</a></li>
             </div>
         </div>
     </nav>
@@ -58,47 +59,75 @@
             </div>
             <div class="slideshow_container_wrap">
                 <div class="slideshow_container">
-                    <div class="services s1 slide">
+                    <div class="services s1 fade">
                         <div class="s1_text">
                             <h2>Wordpress Web Design</h2>
                             <p>
                                 My experience with Wordpress allows me to build any website you
                                 may need. From e-commerce to blogs nothing is beyond my reach. I 
                                 can use handwritten code to design you a custom theme tailor fitted
-                                to your specific needs. Beyond Wordpress I can help set up your social
-                                media accounts, optimize your website for SEO, and set up Google Analytics.
+                                to your specific needs. I've provided links to my portfolio projects 
+                                in the navigation above and pictures of some projects below.
                             </p>
-                            
                         </div>
                         <div class="s1_image">
                             <img src="services.png" alt="Services">
                         </div>
                     </div>
 
-                    <div class="services s2 slide">
+                    <div class="services s2 fade">
                         <div class="s2_text">
-                            <h2>Wordpress Web Design</h2>
+                            <h2>Social Media Marketing</h2>
                             <p>
-                                My experience with Wordpress allows me to build any website you
-                                may need. From e-commerce to blogs nothing is beyond my reach. I 
-                                can use handwritten code to design you a custom theme tailor fitted
-                                to your specific needs. Beyond Wordpress I can help set up your social
-                                media accounts, optimize your website for SEO, and set up Google Analytics.
+                                This is a service that is coming soon. It will involve setting up marketing initiatives
+                                on your social media of choice, in-depth SEO, and Google Analytics to track the results
+                                of marketing campaigns and focus on what yields the highest conversions!
                             </p>
-                            
                         </div>
                         <div class="s2_image">
-                            <img src="services.png" alt="Services">
+                            <img src="services2.png" alt="Services">
                         </div>
                     </div>
 
                     <div class="nav_dots">
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <!--<span class="dot" onclick="currentSlide(3)"></span>-->
                     </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="testimonials_section">
+        <div class="testimonials_container">
+            <a href="https://propertypalsusa.com/" class="testimonial_link">
+                <div class="testimonial">
+                    <h2>Property Pals USA Website - (Real Estate)</h2>
+                    <em>"AJ is extremely easy to work with and accurately conveys the quality of work he can 
+                        produce. We are working with him on an ongoing basis as he continues to be able to 
+                        perform on the tasks that we require.<br><br>
+                        He has built out two websites. findoffmarketproperties.com and propertypalsusa.com 
+                        and will soo be working on a paymints integrations along with landing pages for our 
+                        marketing team. He has done all of this in less than 30 days and I would strongly 
+                        recommend him to anyone who is looking to initiate their branding/marketing departments."
+                    </em>
+                    <p>- Property Pals USA</p>
+                </div>
+            </a>
+            <a href="https://movetheneedle.us/" class="testimonial_link">
+                <div class="testimonial">
+                        <h2>Move the Needle Website - (Nutrition)</h2>
+                        <em>
+                            "AJ was great to work with! Quick turnaround and thorough work. Our team loves our new web 
+                            design and AJ's implementation was flawless. I highly recommend AJ to anyone in need to 
+                            wordpress development!"
+                        </em>
+                        <p>-Move The Needle</p>
+                </div>
+            </a>
         </div>
     </section>
 
@@ -110,5 +139,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
