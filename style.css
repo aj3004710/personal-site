@@ -10,7 +10,10 @@ body {
     background-color: white;
     padding: .5rem 3rem;
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.301);
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .nav_container {
@@ -58,6 +61,7 @@ body {
 .header_section {
     background: linear-gradient(180deg, #1AB394 0%, #B391AD 86.69%), #FFFFFF;
     padding: 5rem;
+    margin-top: 1rem;
 }
 
 .header_container {
@@ -66,11 +70,12 @@ body {
     max-width: 1500px;
     align-items: center;
     color: white;
+    padding-top: 2rem;
 }
 
 .header_text {
     display: grid;
-    max-width: 75%;
+    max-width: 95%;
     margin: auto;
     box-sizing: border-box;
     padding-left: 10%;
@@ -81,7 +86,7 @@ body {
     font-size: 2rem;
 }
 .header_text p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     margin: 0;
     box-sizing: border-box;
 }
@@ -228,6 +233,9 @@ body {
 .testimonial em {
     color: black;
 }
+
+
+
 /*-------Footer Styles----------*/
 .footer_container {
     display: flex;
@@ -244,3 +252,88 @@ body {
     margin-left: .35rem;
     color: #1AB394;
 }
+
+
+/*Page 2 Contact Me*/
+
+/*-------Contact Styles----------*/
+.contact_section {
+    /*background: linear-gradient(180deg, #1AB394 0%, #B391AD 86.69%), #FFFFFF;*/
+    background: url(contact-background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    margin-top: 2rem;
+}
+
+.contact_container {
+   text-align: center;
+}
+
+.form_header h1 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    width: 50%;
+    margin: auto;
+    padding: .5rem 2rem;
+}
+
+.form_wrap {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    padding: 2rem;
+    background: #ececec;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.349);
+}
+.form input {
+    font-size: 1.3rem;
+    color: rgb(44, 44, 44);
+    border-radius: 5px;
+    border: 1px solid rgb(122, 122, 122);
+    padding: .25rem 0;
+}
+
+.fname {
+    width: 100%;
+}
+.lname {
+    width: 100%;
+}
+.email {
+    width: 100%;
+}
+.phone_number {
+    width: 100%;
+}
+.textarea {
+    width: 100%;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 5px;
+}
+
+.form label {
+    color: #1AB394;
+    font-size: 1.5rem;
+}
+
+#submit_button {
+    width: 50%;
+    margin: 1.5rem auto 0 auto;
+    padding: .5rem;
+    text-align: center;
+    background-color: #1AB394;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#submit_button:hover {
+    background-color: #1ab394e5;
+}
+
+
