@@ -18,7 +18,7 @@ body {
 
 .nav_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     max-width: 1500px;
     margin: auto;
     align-items: center;
@@ -272,7 +272,7 @@ body {
 
 .form_header h1 {
     color: #FFFFFF;
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 50%;
     margin: auto;
     padding: .5rem 2rem;
@@ -337,3 +337,126 @@ body {
 }
 
 
+/*-------Portfolio Styles---------------*/
+.portfolio_section {
+    background: linear-gradient(180deg, #1AB394 0%, #b391ad 86.69%);
+    height: 85vh;
+    padding-top: 7.5%;
+}
+.portfolio_img_wrap {
+    max-width: 1000px;
+    margin:  -5rem auto 0 auto;
+}
+.portfolio_section img {
+    width: 100%;
+    margin: auto;
+}
+
+
+.portfolio_header {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.portfolio_container {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 500px;
+   margin: auto;
+   justify-content: ;
+}
+.button1 {
+    width: 33.33%;
+}
+.button1 button {
+    width: 100%;
+}
+.button2 {
+    width: 33.33%;
+}
+.button2 button {
+    width: 100%;
+}
+.button3 {
+    width: 33.33%;
+}
+.button3 button {
+    width: 100%;
+}
+.button4 {
+    width: 50%;
+    text-align: end;
+}
+.button4 button {
+    width: 70%;
+}
+.button5 {
+    width: 50%;
+}
+.button5 button {
+    width: 70%;
+}
+.button6 {
+    width: 100%;
+    text-align: center;
+}
+.button6 button {
+    width: 30%;
+}
+.portfolio_container div{
+    padding: .5rem;
+}
+.portfolio_container button {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    background-color: #EFEFEF;
+    font-size: 1rem;
+    color: #1AB394;
+    font-weight: 600;
+}
+.portfolio_container button:hover {
+    background-color: #1AB394;
+    cursor: pointer;
+    color: #EFEFEF;
+    border: 1px solid #EFEFEF;
+}
+
+
+.portfolio_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: -0rem auto 0 auto;
+    max-width: 1000px;
+}
+.portfolio_flex div {
+    width: 30%;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #0000007c;
+    padding: 1.3rem 2rem 0 2rem;
+}
+.portfolio_flex div:hover {
+    box-shadow: 0px 0px 1px 2px #1AB394;
+    cursor: pointer;
+}
+.portfolio_flex h2 {
+    margin: .5rem 0;
+}
+.portfolio_flex h3 {
+    margin: .5rem 0;
+}
+.portfolio_flex p {
+    margin: .5rem 0;
+}
+.project_link {
+    text-decoration: underline;
+    color: #1AB394;
+}
+.portfolio_flex img {
+    width: 100%;
+}
